@@ -1,0 +1,16 @@
+<div class="flex justify-center">
+    <div class="w-96 py-9 ">
+        <div class="h-80 border-2 border-gray-200 ">
+            <div class="flex justify-center">
+                <p class="text-xl pt-3">Conteo</p>
+            </div>
+            <div class="flex justify-center">
+                <p class="text-8xl pt-5">{{numero}}</p>
+            </div>
+            <div class="flex justify-center  m-10">
+                <button (click)="numero = numero + 1" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded m-3" >+ Increment</button>
+                <button (click)="numero = numero - 1" class="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded m-3">- Decrement</button>
+            </div>
+        </div>
+    </div>
+</div>
